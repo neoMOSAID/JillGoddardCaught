@@ -1,0 +1,27 @@
+Options -Indexes
+
+<FilesMatch "\.(sqlite|xml|csv|txt|ini)$">
+	Deny from all
+</FilesMatch>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#<FilesMatch "\.php$">
+#    Order Deny,Allow
+#    Deny from all
+#    Allow from 127.0.0.1
+#</FilesMatch>
+#<FilesMatch "index[0-9]?\.php$">
+#    Order Allow,Deny
+#    Allow from all
+#</FilesMatch>
+#<Files ~ "\.inc$"> 
+#		Order Allow,Deny 
+#		Deny from All 
+#</Files>
+#Order Allow,Deny 
+#Deny from All 
+
+AddType application/x-httpd-php .css

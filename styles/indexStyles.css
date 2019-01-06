@@ -1,0 +1,289 @@
+*{
+ margin:0px;
+ padding:0px;
+}
+
+body {
+	width:100%;
+	height:100%;
+	background-color:RGB(162,152,158);
+	font-size: 100%;
+}
+
+#bodydiv{
+	width:100%;
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+#div1{
+    width:90%;
+    margin-top:3%;
+    background-color:RGB(204,200,199);
+}
+#div11{
+    width:100%;
+    padding:2 5 0;
+    overflow:hidden;
+}
+#topheader{
+	display:block;
+	width:99.9%;
+	height:35px;
+	border:1px solid black;
+	background-color:RGB(204,200,199);
+}
+#group1 li {
+   display:inline-block;
+   list-style:none;
+   padding:5px;
+}
+#group1 a {
+	color:black;
+	text-decoration:none;
+}
+#group1 {
+	float:left;
+	position:relative;
+}
+#group2{
+	float:right;
+}
+#search1{
+	margin:5px;
+	width:200px;
+	height:25px;
+	padding-right:10px;
+	padding-left:5px;
+	border-radius:5px;
+}
+#p11{
+  padding-bottom:1%;
+  padding-top:4px;
+  padding-left:25px;
+  text-decoration:underline;
+  font-size:1vw;
+}
+#ui1 {
+	padding:5%;
+    font-size:1.7vw;
+    padding-bottom:0;
+    padding-top:2%;
+    display: table;
+    width: 90%;
+    list-style:none;
+}
+#ui1 li {
+	color:RGB(114,105,106);
+    display: table-cell;
+}
+#ui1 li:hover {
+   color:red;
+   cursor:pointer;
+}
+#ui1 li:nth-child(13){
+	background: url("../images/arrow.png") no-repeat;
+    background-size:20%;
+    background-position:right;
+}
+#ui1 li:nth-child(13):hover{
+	background: url("../images/arrowr.png") no-repeat;
+	background-size:20%;
+    background-position:right;
+}
+#ui1 a {
+    display: block;
+    text-align: center;
+    margin: 0 5px;
+    color:RGB(114,105,106);
+	text-decoration:none;
+}
+#ui1 a:hover {
+   color:red;
+   cursor:pointer;
+}
+#div11 span {
+	font-size:1.2em;
+}
+
+#jillgoddardcaught{
+	width:90%;
+	margin-left:5%;
+	margin-top:1%;
+	border: 2px solid black;
+	margin-bottom:0;
+}
+
+#dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+#dropdown1-content {
+    padding:0;
+    position: absolute;
+    z-index: 1;
+    width:150%;
+    display:none;
+    font-size:1.2vw;
+    background-color:RGB(204,200,199);
+}
+#dropdown1-content.visible{
+    display:block;
+}
+
+#ads11{
+	width:90%;
+	font-size:0.7vw;
+	padding-top:0;
+	padding-bottom:0;
+    padding-left:25px;
+	display:table;
+	overflow:auto;
+}
+#ads11 div{
+	display:table-cell;
+	padding-right:20px;
+}
+#ads11 a{
+	text-decoration:none;
+}
+#photoads11{
+	width:49.6%;
+	margin-top:1%;
+	margin-bottom:2%;
+}
+
+
+#dropdown2 {
+    position: relative;
+    float:right;
+    display: inline-block;
+    margin-right:10px;
+}
+#dropdown2-content {
+    padding:0;
+    position: absolute;
+    z-index: 1;
+    width:150%;
+    display:none;
+    font-size:0.9vw;
+    background-color:RGB(204,200,199);
+}
+#dropdown2-content.visible{
+    display:block;
+}
+
+#dropdown2 span{
+	background: url("../images/arrow.png") no-repeat;
+    background-size:20%;
+    background-position:right;
+}
+#dropdown2 span:hover{
+	cursor:pointer;
+	color:red;
+	background: url("../images/arrowr.png") no-repeat;
+	background-size:20%;
+    background-position:right;
+}
+#dropdown2-content p:hover{
+   color:red;
+   cursor:pointer;
+}
+#loginDiv{
+	cursor:pointer;
+}
+#loginDiv-content{
+	position:absolute;
+	z-index:1;
+	display:none;
+	background-color: RGB(204,200,199);
+	width:20vw;
+	font-size:0.8vw;
+	border: 2px solid black;
+	border-radius:10px;
+	padding:5%;
+}
+#loginDiv-content.visible{
+	display:table;
+}
+#loginDiv-content.visible p{
+	display:table-row;
+}
+#loginDiv-content.visible p input{
+	display:table-cell;
+}
+#email0{
+	width:70%;
+	font-size:0.8vw;
+	margin:1%;
+	padding-left:2%;
+}
+#password0{
+	width:50%;
+	font-size:0.8vw;
+	margin:1%;
+	padding-left:2%;
+}
+#enter0{
+	width:5vw;
+	background-color: lightblue;
+	font-size:0.8vw;
+}
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+
+#contest {
+    padding:0;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:99%;
+    display:inline;
+}
+
+#contest img {
+    padding:0;
+    margin: 0 auto;
+}
+#mydropzone {
+    width:140px;
+    height:140px;
+    border: 2px dashed black;
+    display:inline-block;
+    background-color:RGB(162,152,158);
+}
+
+
+#divphotos{
+    border-top:1px solid black;	
+    padding:2px;
+    width:99%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#divphotos p {
+    text-align:center;
+    width:150px;
+    display: block;
+}
+
+#divphotos  img {
+    padding:2px;
+    width:140px;
+    height:140px;
+    display: block;
+    margin: 0 auto;
+}
+
+#topfooter {
+    width:90%;
+    margin:20px;
+    display:block;
+    text-align:center;
+    background-color:RGB(204,200,199);
+}
+
+
