@@ -7,7 +7,7 @@
 
     $dbHost     = "localhost";
     $dbUsername = "root";
-    $dbPassword = "";
+    $dbPassword = "1313";
     $dbName     = "jillGoddardCaught";
 
     // create databse connection

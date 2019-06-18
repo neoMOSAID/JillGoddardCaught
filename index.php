@@ -1,4 +1,4 @@
-<?php 
+<?php
     ini_set('display_errors',1);
     error_reporting(E_ALL);
 ?>
@@ -22,9 +22,9 @@
 		<!-- <script src="scripts/jquery-ui-1.12.1/external/jquery/jquery.js" type="text/javascript" ></script>
 		<script src="scripts/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
 -->
-			
+
 	</head>
-	<body><div id="bodydiv">		
+	<body><div id="bodydiv">
 			<header id="topheader">
 				<hgroup id="group1">
 				<ul>
@@ -68,7 +68,7 @@
 									<p><a href="#">item 2</a></p>
 									<p><a href="#">item 3</a></p>
 								</div>
-							</div>				
+							</div>
 						</li>
 					</ul>
 				</nav>
@@ -82,7 +82,7 @@
 						</div>
 						<div>
 							<a href="#">An american candidate</a><br>Watch american candidate
-							the,<br> showtime&nbsp;reality&nbsp;show&nbsp;details&nbsp;here <br> <a href="#">www.americancandidate.tv</a> 
+							the,<br> showtime&nbsp;reality&nbsp;show&nbsp;details&nbsp;here <br> <a href="#">www.americancandidate.tv</a>
 						</div>
 						<div>
 							<a href="#">Team Overbot</a><br>Team&nbsp;With&nbsp;Silicon&nbsp;Valey\'s<br>
@@ -111,11 +111,11 @@
                             <p onclick="orderby('uploaded_on')" >By date</p>
                             <p onclick="orderby('views')" >By Views</p>
 						</div>
-					</div>		
+					</div>
 					<div id="divphotos">
                         <form action="includes/upload.php" class="dropzone" id="mydropzone" ></form>
                         <?php
-                            require 'includes/getimages.php'; 
+                            require 'includes/getimages.php';
                         ?>
 					</div>
                 </div> <!-- end div11 -->
@@ -124,7 +124,15 @@
                     copyrights @ 2018
 			</footer>
         </div></body> <!-- end bodydiv -->
-		<!-- I watched "Open Windows" and I thought to myself; why not create a website just like the one in the movie.  -->
+        <!--
+I watched "Open Windows" and I thought to myself;
+why not create a website just like the one in the movie.
+and here it is.
+if you like the video
+please subscribe for more  unique content
+
+
+  -->
 </html>
 <?php
     /*
